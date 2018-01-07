@@ -1,7 +1,6 @@
 # Week 1 ( Jan 2 to Jan 5)
 ### Day 1
-
-* Program Overview - 1hr( 9 to 10 am)
+* <span style="color:red">Program Overview - 1hr( 9 to 10 am)</span>
 * Project Overview - 1hr ( 10 to 11 am)
 * Unix - 2hr ( 11.15 to 1.15 pm)
 
@@ -74,7 +73,7 @@
 
 # Week 6 (Feb 05 - Feb 09)
 
-### Day 24 => Evaluation => 3 hrs
+### Day 24 => Workshop => 3 hrs
 ### Day 25
 * Rest - 2hrs
 * RestAssured - 2hr
@@ -101,7 +100,27 @@
 ### Day 34 => Workshop - 4 hr
 
 # Week 8( Feb 19 to Feb 23)
-### Day 
+### Day 35 => Workshop
+### Day 36 => Angular => 4 hrs
+### Day 37 => Angular => 4 hrs
+### Day 38 
+* HTML/CSS/Typescript => 2hrs 
+* Angular => 2hrs
+### Day 39 -> Workshop 
+
+# Week 9 (Feb 26 to Mar 02)
+### Day 39 => Workshop
+### Day 40 => Angular - 4 hrs
+### Day 41 => Selenium - 4hrs
+### Day 42 => Selenium - 4hrs
+* Mar 02 - Holiday
+
+# Week 10 (Mar 05 to Mar 07)
+### Day 43 => Workshop
+### Day 44 => Workshop
+### Day 45 => Jasmine
+
+
 
 
 
