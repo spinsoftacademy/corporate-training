@@ -7,7 +7,11 @@
 * List all databases
    * show databases;
 * Select Database
-   * use training_db;
+   * use training_db;   
+* Create User
+  * CREATE USER 'naresh'@'localhost' IDENTIFIED BY 'pass123';
+* Grant Privileges
+  * GRANT ALL ON naresh.* TO 'training_db'@'localhost';
    
  ## Session 2: CRUD Operations
  * Datatypes  - integer, varchar, date, timestamp
