@@ -20,8 +20,8 @@
 # Session 4: Push/Pull/Fetch
 * Reference: https://help.github.com/articles/fetching-a-remote/
 * git push -u origin master
-* git fetch <remotename> 
-* git merge <remotename>/<branchname>
-* git pull <remotename> <branchname>
+* git fetch < remotename > 
+* git merge < remotename >/< branchname >
+* git pull < remotename > < branchname >
 
 
