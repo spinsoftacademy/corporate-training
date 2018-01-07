@@ -29,8 +29,10 @@
 * git clone https://github.com/USERNAME/REPOSITORY.git < foldername >
 
 # Session 6: Branches
-*  List all branches
+*  List Local branches
     * git branch
+*  List Local and Remote branches
+    * git branch -a
 *  Create a New Branch
     * git branch dev
 *  Checkout a Branch
@@ -45,7 +47,13 @@
  * git merge dev
  
  # Session 8: Rebase
- * git rebase
+ * git rebase -i master
+ 
+ # Session 9: Stash
+ * git stash list -- list all stashes
+ * git stash push -- push local workspace changes to stash
+ * git stash pop -- pop local workspace changes from stash
+ * git stash drop -- drop the latest stash
  
  
 
