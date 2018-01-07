@@ -1,10 +1,14 @@
 # Normalization
 
-## 1st Normal Form
+## First Normal Form (1NF)
 
+## Second Normal Form (2NF)
 
-## 2nd Normal Form
+## Third Normal Form (3NF)
 
+## Boyce-Codd Normal Form (BCNF)
 
-## 3rd Normal Form
+## Fourth Normal Form (4NF)
+
+## Fifth Normal Form (5NF)
 
