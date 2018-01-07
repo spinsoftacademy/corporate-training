@@ -8,6 +8,9 @@
     * cd ..
     * cd /
 * pwd
+* List Files - ls 
+* Copy Folder/Files - cp
+* Move Folder/Files - mv
 * Remove Folder/Files 
     * rm <filename>
     * rm -rf <foldername>
@@ -24,6 +27,7 @@
 ### Day 3 - Commands
 * cat
 * tail 
+* head
 
 ### Day 4 - Search
 * grep
