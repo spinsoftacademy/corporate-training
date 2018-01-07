@@ -20,3 +20,10 @@
 * Actions
    * Quit 
    * Save and Quit
+
+### Day 3 - Commands
+* cat
+* tail 
+
+### Day 4 - Search
+* grep
