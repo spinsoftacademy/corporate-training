@@ -1,6 +1,6 @@
 # Unix Training
 
-### Day 1 - Commands
+### Session 1 - Commands
 * Create Directory 
     * mkdir <foldername>
 * Change Directory 
@@ -15,7 +15,7 @@
     * rm <filename>
     * rm -rf <foldername>
 
-### Day 2 - Commands
+### Session 2 - Commands
 * vi editor
 * Modes
    * Insert 
@@ -24,10 +24,11 @@
    * Quit 
    * Save and Quit
 
-### Day 3 - Commands
+### Session 3 - Commands
 * cat
 * tail 
 * head
 
 ### Day 4 - Search
-* grep
+* grep "dhoni" input.txt
+* grep -i 
