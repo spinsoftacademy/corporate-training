@@ -27,3 +27,25 @@
 # Session 5: Clone a Repository
 * git clone https://github.com/USERNAME/REPOSITORY.git
 * git clone https://github.com/USERNAME/REPOSITORY.git < foldername >
+
+# Session 6: Branches
+*  List all branches
+    * git branch
+*  Create a New Branch
+    * git branch dev
+*  Checkout a Branch
+    * git checkout dev
+* Shortcut
+    * git checkout -b dev
+* Delete Branch
+    * git branch -d task1
+    
+ # Session 7: Merging
+ * git checkout master
+ * git merge dev
+ 
+ # Session 8: Rebase
+ * git rebase
+ 
+ 
+
