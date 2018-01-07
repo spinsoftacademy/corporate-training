@@ -13,6 +13,8 @@
  * Datatypes  - integer, varchar, date, timestamp
  * Create Table
      * create table users( id int, name varchar(100), email varchar(100), dob date , created_at timestamp );
+ * Drop Table
+     * drop table users;
  * Insert Records
  * Update Records
  * Delete Records
@@ -33,26 +35,20 @@
  * select * from users order by name DESC;
  * select * from users order by name,dob DESC;
  
- ## Session 5: Aggregate Functions
+ ## Session 5: Constraints
+* Not Null
+* Unique
+* Primary Key
+* Check 
+* Foreign Key
+* Example:
+     * create table users ( id int primary key auto_increment, name varchar(100) not null, email varchar(100) , unique (email) );
+ 
+ ## Session 6: Aggregate Functions
  * select count(*), min(salary), max(salary), avg(salary), sum(salary) from employees;
  * select department_name, count(*), min(salary), max(salary), avg(salary), sum(salary) from employees group by department_name;
  * select department_name, count(*), min(salary), max(salary), avg(salary), sum(salary) from employees group by department_name having count(*) > 5;
  
-## Session 6: Joins
+## Session 7: Joins
 
-## Session 7: SubQueries
-
-## Normalization
-
-## 1st Normal Form
-todo
-
-## 2nd Normal Form
-todo
-
-##3rd Normal Form
-todo
-
-
- 
- 
+## Session 8: SubQueries
