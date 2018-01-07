@@ -24,4 +24,6 @@
 * git merge < remotename >/< branchname >
 * git pull < remotename > < branchname >
 
-
+# Session 5: Clone a Repository
+* git clone https://github.com/USERNAME/REPOSITORY.git
+* git clone https://github.com/USERNAME/REPOSITORY.git < foldername >
