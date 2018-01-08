@@ -152,9 +152,43 @@ select * from users u, user_status us where u.status_id = us.id and u.id = 1;
 
 #### Task 5.5: Display My Status
 ```sql
-select * from users u, user_status us where u.status_id = us.id and u.id = 1;
+select us.status_desc as current_status from users u, user_status us where u.status_id = us.id and u.id = 1;
 ```
 
 ## Sprint 6
 ### Feature 6: Send Group Messages
+#### Task 6.1: Create Group table
+```sql
+create table groups ( id int primary key auto_increment , group_name varchar(100) not null );
+```
 
+#### Task 6.2: Populate Records
+```sql
+insert into groups ( group_name) values ( 'Roomates');
+insert into groups ( group_name) values ( 'Project Team');
+```
+
+#### Task 6.3: List groups
+```sql
+select * from groups;
+```
+
+#### Task 6.4: Create a table to manage group members
+```sql
+create table group_members 
+( 
+id int primary key auto_increment,
+group_id int not null,
+user_id int not null,
+foreign key ( group_id) references groups(id) ,
+foreign key ( user_id) references users(id)
+);
+```
+
+#### Task 6.5: Add group members
+```sql
+insert into group_members ( group_id , user_id ) values ( 1, 1);
+insert into group_members ( group_id , user_id ) values ( 1, 2);
+```
+
+#### Task 6.6: Display Group members 
