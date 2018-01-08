@@ -191,4 +191,30 @@ insert into group_members ( group_id , user_id ) values ( 1, 1);
 insert into group_members ( group_id , user_id ) values ( 1, 2);
 ```
 
-#### Task 6.6: Display Group members 
+#### Task 6.6: Display all Group members 
+```sql
+select * from group_members;
+```
+
+#### Task 6.7: Display the Group Members for a given Group Id
+```sql
+select * from group_members where group_id =1 ;
+```
+
+#### Task 6.8: Display Group Details and Group Member Details
+```sql
+select * from groups g , group_members gm where g.id = gm.group_id;
+```
+
+#### Task 6.9: Display Group Details, Group Member Details, User Details
+```sql
+select * from groups g , group_members gm, users u where g.id = gm.group_id and u.id = gm.user_id;
+```
+
+#### Task 6.10: Display group name , user name and mobileno
+```sql
+select g.group_name , u.name, u.mobile_no from groups g , group_members gm, users u where 
+g.id = gm.group_id and u.id = gm.user_id;
+```
+
+
